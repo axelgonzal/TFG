@@ -1,0 +1,71 @@
+{
+  "split": {
+    "test_fraction": 0.2,
+    "seed": 42,
+    "n_train_samples": 1000,
+    "n_test_samples": 250,
+    "min_points": 100
+  },
+  "attacker": {
+    "real_test": {
+      "mean": -0.952121034432972,
+      "std": 0.16724965344109488,
+      "min": -1.0,
+      "max": 1.0,
+      "n_samples": 250
+    },
+    "generated": {
+      "mean": -0.9353700787790474,
+      "std": 0.19698467141761258,
+      "min": -0.9999226331710815,
+      "max": 0.9194110631942749,
+      "n_samples": 250
+    },
+    "absolute_differences": {
+      "mean": 0.016750955653924593,
+      "std": 0.029735017976517703
+    }
+  },
+  "defender_components_A": {
+    "score_distribution": {
+      "real_test": {
+        "mean": -427.9215087890625,
+        "std": 1.7917994260787964
+      },
+      "generated": {
+        "mean": -425.85675048828125,
+        "std": 0.05303403362631798
+      }
+    },
+    "roc_auc": 0.868,
+    "pr_auc": 0.7181384159723467,
+    "best_f1": {
+      "f1": 0.9380863039394642,
+      "precision": 0.8833922261484098,
+      "recall": 1.0,
+      "threshold": -426.0445251464844
+    },
+    "threshold_percentile_5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.051999999999999796,
+      "detection_rate": 0.0,
+      "tp": 0,
+      "fp": 13,
+      "tn": 237,
+      "fn": 250
+    },
+    "threshold_mu_plus_3sigma": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.0,
+      "detection_rate": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 250,
+      "fn": 250
+    }
+  }
+}

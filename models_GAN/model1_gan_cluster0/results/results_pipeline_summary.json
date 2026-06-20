@@ -1,0 +1,51 @@
+{
+  "model": "GAN convencional - pipeline atacante/defensor (img->IQ->img)",
+  "seed": 42,
+  "resolution": 96,
+  "cluster_q": 0,
+  "num_points_iq": 128,
+  "n_reference": 1250,
+  "n_generated_pipeline": 1250,
+  "thresholds": {
+    "percentil_5": 0.4392678737640381,
+    "mu_minus_3sigma": 0.4376564621925354,
+    "best_f1_anomaly_scale_pipeline": 0.55685955286026
+  },
+  "score_stats": {
+    "reference": {
+      "mean": 0.4409662187099457,
+      "std": 0.0011032551992684603
+    },
+    "generated_pipeline": {
+      "mean": 0.441023051738739,
+      "std": 0.0008309315890073776,
+      "min": 0.4380384385585785,
+      "max": 0.444297730922699
+    }
+  },
+  "detection_rates": {
+    "percentil_5": 0.0184,
+    "mu_minus_3sigma": 0.0
+  },
+  "roc_auc": 0.47977472,
+  "metrics_percentil_5": {
+    "precision": 0.26744186046511625,
+    "recall": 0.0184,
+    "f1": 0.0344311377245509
+  },
+  "metrics_mu_minus_3sigma": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "metrics_best_f1": {
+    "precision": 0.5054855749695246,
+    "recall": 0.9952,
+    "f1": 0.670439234707626
+  },
+  "comparison_with_A": {
+    "roc_auc_a_secas": 0.46557344,
+    "roc_auc_pipeline": 0.47977472,
+    "delta_roc_auc": 0.014201279999999983
+  }
+}

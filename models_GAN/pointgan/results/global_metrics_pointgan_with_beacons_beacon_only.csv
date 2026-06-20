@@ -1,0 +1,2 @@
+EXPERIMENT_TYPE,MODEL_NAME,EXPERIMENT_MODE,TP,FN,FP,TN,TPR,FPR,Precision,Accuracy
+B_with_beacons,pointgan_with_beacons,beacon_only,250,0,0,250,1.0,0.0,1.0,1.0

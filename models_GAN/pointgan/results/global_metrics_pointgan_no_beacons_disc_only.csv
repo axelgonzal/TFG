@@ -1,0 +1,2 @@
+EXPERIMENT_TYPE,MODEL_NAME,EXPERIMENT_MODE,TP,FN,FP,TN,TPR,FPR,Precision,Accuracy
+A_no_beacons,pointgan_no_beacons,disc_only,0,216,13,237,0.0,0.052,0.0,0.5085836909871244
