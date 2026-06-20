@@ -1,4 +1,0 @@
-group,n_distances,epsilon,threshold_min,threshold_max,threshold_mean,beacons_min,beacons_max,beacons_mean
-short,8,0.015,11.0,47.0,22.893749999999997,64,64,64.0
-mid,9,0.025,16.0,22.099999999999994,18.599999999999998,64,64,64.0
-long,8,0.05,28.099999999999994,39.05,32.80625,64,64,64.0
